@@ -1,0 +1,40 @@
+<model-viewer src="celula vegetal.glb" ar ar-modes="webxr scene-viewer quick-look" camera-controls tone-mapping="neutral" poster="poster.webp" shadow-intensity="1">
+    <button class="Hotspot" slot="hotspot-2" data-position="0.029099236079519232m 0.028017999604344358m 0.04013857119484366m" data-normal="0m 1m 2.220446049250313e-16m" data-visibility-attribute="visible">
+        <div class="HotspotAnnotation">Cloroplasto</div>
+    </button><button class="Hotspot" slot="hotspot-3" data-position="-0.010765338951152302m 0.025948999449610727m 0.0446253578009631m" data-normal="0m 1m 2.220446049250313e-16m" data-visibility-attribute="visible">
+        <div class="HotspotAnnotation">Mitocondria</div>
+    </button><button class="Hotspot" slot="hotspot-4" data-position="-0.027794427822202608m 0.023321999236941334m 0.01663463314011227m" data-normal="0m 1m 2.220446049250313e-16m" data-visibility-attribute="visible">
+        <div class="HotspotAnnotation">lisosoma</div>
+    </button><button class="Hotspot" slot="hotspot-6" data-position="-0.028623204474174525m 0.023419589631212854m -0.00945071091837719m" data-normal="-0.132168558401404m 0.9800116684242561m -0.14868961605438585m" data-visibility-attribute="visible">
+        <div class="HotspotAnnotation">Microtúbulos</div>
+    </button><button class="Hotspot" slot="hotspot-7" data-position="-0.029426367193651826m 0.022505000233650214m -0.026432396359394796m" data-normal="0m 1m 2.220446049250313e-16m" data-visibility-attribute="visible">
+        <div class="HotspotAnnotation">Citoplasma</div>
+    </button><button class="Hotspot" slot="hotspot-9" data-position="-0.011080919352752294m 0.008542068950067185m -0.029923859259695384m" data-normal="0.014056202283145025m 2.2202266840767992e-16m -0.9999012067086305m" data-visibility-attribute="visible">
+        <div class="HotspotAnnotation">Pared celular</div>
+    </button><button class="Hotspot" slot="hotspot-10" data-position="-0.03955514671630196m 0.021278999745845784m 0.044437279615611384m" data-normal="0m 1m 2.220446049250313e-16m" data-visibility-attribute="visible">
+        <div class="HotspotAnnotation">Membrana plasmatica</div>
+    </button><button class="Hotspot" slot="hotspot-13" data-position="0.004483761562537523m 0.023034166575724272m 0.04895177716428643m" data-normal="-0.06265803517405148m 0.4463577793957964m 0.8926582231744584m" data-visibility-attribute="visible">
+        <div class="HotspotAnnotation">Ribosoma</div>
+    </button><button class="Hotspot" slot="hotspot-14" data-position="0.039517680176250194m 0.025228999555110928m 0.015828457080372414m" data-normal="0m 1m 2.220446049250313e-16m" data-visibility-attribute="visible">
+        <div class="HotspotAnnotation">Aparato de golgi</div>
+    </button><button class="Hotspot" slot="hotspot-15" data-position="0.0328269211318791m 0.024863025612146095m 0.0026722790917527214m" data-normal="0.1544455365122094m 1.290119340586223e-7m 0.9880013037701111m" data-visibility-attribute="visible">
+        <div class="HotspotAnnotation">REL</div>
+    </button><button class="Hotspot" slot="hotspot-16" data-position="0.013061563678558319m 0.02522899955511093m -0.006283161423153641m" data-normal="0m 1m 2.220446049250313e-16m" data-visibility-attribute="visible">
+        <div class="HotspotAnnotation">RER</div>
+    </button><button class="Hotspot" slot="hotspot-17" data-position="-0.0078058412671491145m 0.029324000701308247m 0.01695412550751866m" data-normal="0m 1m 2.220446049250313e-16m" data-visibility-attribute="visible">
+        <div class="HotspotAnnotation">vacuola</div>
+    </button><button class="Hotspot" slot="hotspot-18" data-position="0.02521778457968004m 0.030188951269125314m -0.009551725248050112m" data-normal="-0.1873565905906741m 0.6920381645521232m 0.6971231503583617m" data-visibility-attribute="visible">
+        <div class="HotspotAnnotation">nucleolo</div>
+    </button><button class="Hotspot" slot="hotspot-19" data-position="0.027420474182971468m 0.03461601260319183m -0.013058750446441218m" data-normal="0.09640578505540147m 0.995265501106239m 0.012349369036467203m" data-visibility-attribute="visible">
+        <div class="HotspotAnnotation">nucleo</div>
+    </button>
+    <div class="progress-bar hide" slot="progress-bar">
+        <div class="update-bar"></div>
+    </div>
+    <button slot="ar-button" id="ar-button">
+        View in your space
+    </button>
+    <div id="ar-prompt">
+        <img src="https://modelviewer.dev/shared-assets/icons/hand.png">
+    </div>
+</model-viewer>
